@@ -59,7 +59,7 @@ public class Scr {
 		
 		String pages = driver.findElement(By.className("_3_aDx")).getText().substring(9);
 		int totalPages = Integer.parseInt(pages);
-		for(int i = 0; i < 4;i++) {
+		for(int i = 0; i < totalPages;i++) {
 			getData("https://pharmeasy.in/online-medicine-order/browse?alphabet=b&page="+i,driver,wb);
 		};
 		
