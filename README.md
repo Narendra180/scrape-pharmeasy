@@ -4,3 +4,5 @@ It automatically opens the next page and scrape the data from all the pages.
 It is coded by using java, selenium, apache poi.
 
 The result excel file will be saved in data folder of the project.
+
+script file is located in src/com/example/webscraping with name Scrape.java
